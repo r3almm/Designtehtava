@@ -67,9 +67,9 @@ header h1 {
 /*Menu*/
 #main-menu { 
 	list-style-type: none; 
-	padding-right:50px;
 	display:flex;
 	flex-direction: row;
+	-ms-flex-align: end;
 	/*Voit tehdä tästä flexboxin, 
 	niin valikon napit menevät vierekkäin*/
 
@@ -83,8 +83,7 @@ header h1 {
 /*Menu item*/
 #main-menu li {
 	padding-top: -20px;
-	
-	padding-right:200px;
+	padding-right:150px;
 	font-family: Helvetica;
 	background-color: rgb(214, 214, 223);
 	color:#7D84B2;
@@ -98,7 +97,6 @@ header h1 {
 
 /*Link in menu item*/
 #main-menu a { 
-
 	text-decoration: none; /*poistaa linkin alleviivauksen*/
 
 	/*Voi muokata täällä myös background-, color- 
