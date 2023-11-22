@@ -68,8 +68,8 @@ header h1 {
 #main-menu { 
 	list-style-type: none; 
 	display:flex;
-	flex-direction: row;
-	-ms-flex-align: end;
+	justify-content: center;
+	flex-direction:row;
 	/*Voit tehdä tästä flexboxin, 
 	niin valikon napit menevät vierekkäin*/
 
@@ -82,8 +82,8 @@ header h1 {
 
 /*Menu item*/
 #main-menu li {
-	padding-top: -20px;
-	padding-right:150px;
+	padding-inline: 40px;
+	margin:0;
 	font-family: Helvetica;
 	background-color: rgb(214, 214, 223);
 	color:#7D84B2;
